@@ -1,0 +1,122 @@
+.masterhead {
+    background-image: url(https://img.freepik.com/free-vector/system-update-banner-computer-software-install_107791-2043.jpg?w=1380&t=st=1669790116~exp=1669790716~hmac=a5e8455532c1a1096992d27e37a488e017f40e7c62f707c1cd2f3bce9dc288b7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+}
+
+.masterhead h2 {
+    position: absolute;
+    left: 532px;
+    top: 130px;
+    background-color: #fff;
+    color: #000;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    width: 200px;
+    margin-right: 15px;
+    height: 200px;
+    background-color: rgb(168, 93, 200);
+}
+
+.header_login_btn {
+    margin-right: 20px;
+    color: white;
+    background: rgb(31, 137, 203);
+}
+
+.header_signup_btn {
+    margin-right: 100px;
+    color: #fff;
+    background-color: rgb(31, 137, 203);
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .masterhead {
+        height: 280px;
+    }
+
+    .masterhead h2 {
+        left: 101px;
+        top: 125px;
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .item {
+        width: unset;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .header_login_btn {
+        margin-right: 0;
+        margin-bottom: 15px;
+        color: greenyellow;
+        background: #fff;
+    }
+    
+    .header_signup_btn {
+        margin-right: 0;
+        background-color: greenyellow;
+    }
+    
+    button {
+        padding: 5px 20px;
+        border: 2px solid greenyellow;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .button-container {
+        flex-direction: column;
+    }
+
+    .header_login_btn {
+        margin-right: 0;
+        margin-bottom: 15px;
+        color: #db4141;;
+        background: #fff;
+    }
+    
+    .header_signup_btn {
+        margin-right: 0;
+        background-color: #db4141;;
+    }
+    
+    button {
+        padding: 5px 20px;
+        border: 2px solid #db4141;;
+        border-radius: 5px;
+    }
+
+    .masterhead h2 {
+        left: 162px;
+        top: 160px;
+    }
+}
